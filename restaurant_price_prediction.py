@@ -71,5 +71,5 @@ def run_app():
         st.success(f"Predicted Price for Two: ₹{predicted_price:.2f}")
 
 # Uncomment this to run Streamlit locally
-# if __name__ == '__main__':
-#     run_app()
+if __name__ == '__main__':
+     run_app()
