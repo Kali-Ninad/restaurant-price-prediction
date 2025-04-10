@@ -13,8 +13,8 @@ from sklearn.metrics import mean_squared_error, r2_score
 import streamlit as st
 
 # === 2. Load Sample Dataset ===
-url = "https://raw.githubusercontent.com/justmarkham/pandas-videos/master/data/zomato.csv"
-df = pd.read_csv(url, encoding='latin-1')
+df = pd.read_csv("zomato.csv", encoding='latin-1')
+
 
 # === 3. Data Cleaning & Preprocessing ===
 df = df.drop_duplicates()
